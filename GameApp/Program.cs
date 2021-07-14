@@ -30,7 +30,7 @@ namespace GameApp
                     Console.WriteLine("Basic Level");
 
                     System.Reflection.Assembly basicLevelLib =
-      System.Reflection.Assembly.LoadFile(@"C:\Users\deepthi.np\source\repos\GameApp\GameApp\bin\Debug\netcoreapp3.1\BasicLevelLib(1).dll");
+      System.Reflection.Assembly.LoadFile(@"C:\Users\deepthi.np\source\repos\GameApp\GameApp\bin\Debug\netcoreapp3.1\BasicLevelLib.dll");
 
                     System.Type basicLevelTypeClassRef = basicLevelLib.GetType("BasicLevelLib.BasicLevelType");
                     if (basicLevelTypeClassRef != null)
@@ -55,7 +55,7 @@ namespace GameApp
                 case Options.INTERMEDIATE:
                     Console.WriteLine("Intermediate Level");
                     System.Reflection.Assembly intermediateLevelLib =
-                    System.Reflection.Assembly.LoadFile(@"C:\Users\deepthi.np\source\repos\GameApp\GameApp\bin\Debug\netcoreapp3.1\IntermediateLevelLib(1).dll");
+                    System.Reflection.Assembly.LoadFile(@"C:\Users\deepthi.np\source\repos\GameApp\GameApp\bin\Debug\netcoreapp3.1\IntermediateLevelLib.dll");
                     System.Type intermediateTypeClassRef = intermediateLevelLib.GetType("IntermediateLevelLib.IntermediateLevelType");
 
                     if (intermediateTypeClassRef != null)
@@ -78,7 +78,7 @@ namespace GameApp
                 case Options.ADVANCED:
                     Console.WriteLine("Advanced Level");
                     System.Reflection.Assembly advancedLevelLib =
-                    System.Reflection.Assembly.LoadFile(@"C:\Users\deepthi.np\source\repos\GameApp\GameApp\bin\Debug\netcoreapp3.1\AdvancedLevelLib(2).dll");
+                    System.Reflection.Assembly.LoadFile(@"C:\Users\deepthi.np\source\repos\GameApp\GameApp\bin\Debug\netcoreapp3.1\AdvancedLevelLib.dll");
                     System.Type advancedTypeClassRef = advancedLevelLib.GetType("AdvancedLevelLib.AdvancedLevelType");
 
                     if (advancedTypeClassRef != null)
